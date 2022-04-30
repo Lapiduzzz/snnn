@@ -1,0 +1,123 @@
+:root {
+
+
+    /* Default */
+    --default-color1: #FDF7E5;
+    --default-color2: #4E97BB;
+    --default-color3: #325669;
+
+    --default-fieldColor: rgba(253, 247, 229, 0.8);
+
+    --default-button: #F2E19C;
+    --default-success: #45BAA2;
+    --default-error: #BA616A;
+
+    --default-text-main: #2A353B;
+    --default-text-second: #F2F9FC;
+    --default-text-active: #2b454f ;
+
+
+    /*Dark*/
+    --dark-color1: #595959;
+    --dark-color2: #262626;
+    --dark-color3: #0d0d0d;
+
+    --dark-fieldColor: rgba(89, 89, 89, 0.8);
+
+    --dark-button: #527570;
+    --dark-success: #527570;
+    --dark-error: #7A5656;
+
+    --dark-text-main: #B3B3B3;
+    --dark-text-second: #BFBFBF;
+    --dark-text-active: #8C6554;
+
+
+    /*Monochrome*/
+    --monochrome-color1: #a6a6a6;
+    --monochrome-color2: #595959;
+    --monochrome-color3: #0D0D0D;
+
+    --monochrome-fieldColor: rgba(166, 166, 166, 0.8);
+
+    --monochrome-button: #959FA6;
+    --monochrome-success: #F2F2F2;
+    --monochrome-error: #A6A6A6;
+
+    --monochrome-text-main: #000000;
+    --monochrome-text-second: #ffffff;
+    --monochrome-text-active: #F2F2F2;
+
+
+    /*Light*/
+    --light-color1: #f2eeeb;
+    --light-color2: #D9D7D7;
+    --light-color3: #4C5059;
+
+    --light-fieldColor: rgba(242, 238, 235, 0.8);
+
+    --light-button: #C3C5D9;
+    --light-success: #C1D9C8;
+    --light-error: #D9C1C1;
+
+    --light-text-main: #595858;
+    --light-text-second: #7D8C8A;
+    --light-text-active: #ffffff;
+
+
+
+
+    /*Dark Green*/
+    --darkGreen-color1: #377d8c;
+    --darkGreen-color2: #155259;
+    --darkGreen-color3: #012326;
+
+    --darkGreen-fieldColor: rgba(55, 125, 140, 0.8);
+
+    --darkGreen-button: #6E4C2E;
+    --darkGreen-success: #308C6A;
+    --darkGreen-error: #8C4560;
+
+    --darkGreen-text-main: #bfc9cf;
+    --darkGreen-text-second: #9ea7a6;
+    --darkGreen-text-active: #000000;
+
+
+    /*Dark Blue*/
+    --darkBlue-color1: #2999a6;
+    --darkBlue-color2: #175973;
+    --darkBlue-color3: #012840;
+
+    --darkBlue-fieldColor: rgba(41, 153, 166, 0.8);
+
+    --darkBlue-button: #138EBF;
+    --darkBlue-success: #F2AF24;
+    --darkBlue-error: #B17158;
+
+    --darkBlue-text-main: #000000;
+    --darkBlue-text-second: #bfc9cf;
+    --darkBlue-text-active: #BF9313;
+
+
+
+
+
+
+    /* theme */
+
+    --color1: var(--default-color1);
+    --color2: var(--default-color2);
+    --color3: var(--default-color3);
+
+    --fieldColor: var(--default-fieldColor);
+
+    --button: var(--default-button);
+    --success: var(--default-success);
+    --error: var(--default-error);
+
+    --text-main: var(--default-text-main);
+    --text-second: var(--default-text-second);
+    --text-active: var(--default-text-active);
+
+}
+

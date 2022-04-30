@@ -1,0 +1,34 @@
+@import "../../../../style/style"
+
+
+.form
+  display: flex
+  flex-direction: column
+  gap: 10px
+  width: 20%
+  margin: 20vh auto
+  label
+    font-size: 20px
+  input
+    background-color: $fieldColor
+    height: 25px
+    outline: none
+    border: 0px
+    resize: none
+    overflow: hidden
+  .errorsBorder
+    border: $errButton solid 2px
+  button
+    background-color: $button
+    border: 0px
+    height: 25px
+.errors
+  color: $errButton
+  font-size: 15px
+.messages
+  font-size: 25px
+.remem
+  display: flex
+  justify-content: space-between
+.captcha
+  width: 100%

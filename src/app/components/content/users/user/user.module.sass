@@ -1,0 +1,61 @@
+@import "../../../../../style/style"
+
+
+
+.user
+  height: 150px
+  background-color: $color1
+  margin: 10px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  transition: $transition
+
+
+
+.userInfo
+  display: flex
+
+.userAva
+  display: flex
+  flex-direction: column
+
+  img
+    height: 100px
+    width: 100px
+    margin: 20px 10px
+    border-radius: 50px
+    display: block
+
+.description
+
+  .name
+    font-size: 30px
+    text-align: left
+
+  .location
+    font-size: 20px
+    text-align: left
+
+
+  .status
+    font-size: 20px
+    text-align: left
+
+.buttons
+  font-family: 'Rajdhani', sans-serif
+  .follow, .unfollow
+    background-color: $button
+    border: 0
+    height: 50px
+    width: 150px
+    margin-right: 10px
+    transition: $transition
+
+
+
+
+  .unfollow
+    background-color: $color2
+    color: white
+

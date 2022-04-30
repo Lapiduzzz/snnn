@@ -1,0 +1,67 @@
+@import "~normalize.css"
+@import "theme"
+
+/////////////////////////////// FONTS //////////////////////////////////////////////////////////////////////////////////
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap') // font-family: 'Rajdhani', sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap') // font-family: 'Special Elite', cursive
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap') // font-family: 'Oswald', sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap') // font-family: 'Roboto Mono', monospace
+
+///////////////////////////// COLOR ////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+$color1: var(--color1)
+$color2: var(--color2)
+$color3: var(--color3)
+
+$fieldColor: var(--fieldColor)
+
+$button: var(--button)
+$okButton: var(--success)
+$errButton: var(--error)
+
+$textMain: var(--text-main)
+$textSecond: var(--text-second)
+$textActive: var(--text-active)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$transition: all 0.3s ease-in
+
+
+
+body
+  background-color: $color3
+  font-family: 'Oswald', sans-serif
+p
+  color: $textMain
+  font-size: 25px
+a
+  text-decoration: none
+  color: $textSecond
+
+
+.app-wrapper
+  background-color: $color3
+  min-height: 100vh
+  display: grid
+  grid-template-rows: 50px 5fr 50px
+  grid-template-columns: 200px 1fr
+  grid-gap: 1em
+  grid-template-areas: "hd hd" "sb ct" "ft ft"
+  transition: $transition
+
+
+
+
+
+.content
+  background-color: $color2
+  grid-area: ct
+  transition: $transition
+
+
+
+

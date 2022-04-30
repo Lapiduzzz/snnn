@@ -1,0 +1,29 @@
+@import "../../../../../../style/style"
+
+
+.post
+  background-color: $color1
+  display: grid
+  grid-template-columns: 100px 1fr
+  grid-template-rows: 40px 1fr 30px
+  grid-template-areas: "img nm" "img it" "img lk"
+  margin: 10px
+  transition: all 0.3s ease-in
+  color: $textMain
+  img
+    margin: 10px
+    height: 80px
+    width: 80px
+    border-radius: 50px
+    grid-area: img
+  .name
+    grid-area: nm
+    font-size: 30px
+  .item
+    grid-area: it
+    font-size: 20px
+    font-family: 'Roboto Mono', monospace
+  .like
+    grid-area: lk
+    font-size: 15px
+    margin-top: 10px

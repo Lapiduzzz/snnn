@@ -1,0 +1,66 @@
+@import "../../../style/style"
+
+.header
+  background-color: $color2
+  grid-area: hd
+  transition: $transition
+
+img
+  width: 50px
+  height: 50px
+
+
+.login
+  position: absolute
+  right: 10px
+  top: 10px
+  font-size: 25px
+  color: $textSecond
+  .active
+    color: $textActive
+
+.loginInfo
+  visibility: hidden
+  opacity: 0
+  margin: 0 auto
+  width: 100px
+  height: 0
+  background-color: $color1
+  transition: $transition
+  img
+    width: 100px
+    height: 100px
+  span
+    display: block
+    font-size: 20px
+    color: #2b454f
+    margin: 10px
+
+
+
+.loginInfo.LIActive
+    visibility: visible
+    opacity: 1
+    height: 200px
+    transition: $transition
+
+.changeTheme
+  width: 100%
+  height: 20px
+  display: flex
+  .changeThemeItems
+    width: 40px
+    height: 100%
+  .default
+    background-color: #4E97BB
+  .dark
+    background-color: #262626
+  .monochrome
+    background-color: #595959
+  .light
+    background-color: #D9D7D7
+  .darkGreen
+    background-color: #155259
+  .darkBlue
+    background-color: #175973
+
