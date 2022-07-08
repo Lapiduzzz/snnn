@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "homepage": "https://github.com/Lapiduzzz/snnn.git",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
-    "start": "cross-env NODE_ENV=development webpack serve --mode development --open"
+    "start": "cross-env NODE_ENV=development webpack serve --mode development --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +28,7 @@
     "css-minimizer-webpack-plugin": "latest",
     "csv-loader": "latest",
     "file-loader": "latest",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "latest",
     "mini-css-extract-plugin": "latest",
     "node-sass": "latest",
